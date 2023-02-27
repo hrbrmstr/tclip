@@ -1,0 +1,14 @@
+app = "TCLIP"
+
+[build]
+image = "ghcr.io/tailscale-dev/tclip:latest"
+
+[deploy]
+strategy = "immediate"
+
+[env]
+DATA_DIR = "/data"
+
+[mounts]
+source = "tclip_data"
+destination = "/data"
