@@ -1,4 +1,4 @@
-app = "TCLIP"
+app = "hrbrclip"
 
 [build]
 image = "ghcr.io/tailscale-dev/tclip:latest"
